@@ -41,3 +41,31 @@ p {
   padding: 0 16px;
   margin: 0 auto;
 }
+
+/*! ==== Only Global Above ==== */
+
+/* hero styles */
+.hero {
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-wrap {
+  max-width: 511px;
+}
+
+.hero-title {
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  margin-bottom: 40px;
+}
+
+.hero-button {
+}
