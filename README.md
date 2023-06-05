@@ -22,7 +22,7 @@ Yuliia Shatkovska_(https://github.com/YuliiaShatkovska) - Yuliia Shatkovska
 lilithcrumb_(https://github.com/lilithcrumb) - Liliia Kondrat
 
 * _Subscribe_ = 
-++++++(not joined)+++++ - Sergey Savsun
+serser29_(https://github.com/serser29) - Sergey Savsun
 
 * _Footer_ = 
 +++++(not joined)+++++ - Anton
