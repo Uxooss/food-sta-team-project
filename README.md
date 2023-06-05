@@ -25,6 +25,6 @@ lilithcrumb_(https://github.com/lilithcrumb) - Liliia Kondrat
 serser29_(https://github.com/serser29) - Sergey Savsun
 
 * _Footer_ = 
-+++++(not joined)+++++ - Anton
+akchiram_(https://github.com/akchiram)  - Marichka Goncharuk
 
 ------
