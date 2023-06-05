@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #f5f5f5;
   color: #2c2c2c;
   font-weight: 400;
@@ -23,7 +23,7 @@ p {
 .link {
   text-decoration: none;
   color: #2c2c2c;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -68,4 +68,40 @@ p {
 }
 
 .hero-button {
+}
+
+/**---------------- SUBSCRIBE -------------------**/
+
+.subscribe {
+  margin-bottom: 64px;
+}
+
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.words-wrap {
+  max-width: 532px;
+}
+.subscribe-head {
+  margin-bottom: 20px;
+}
+.subscribe-par {
+  margin-bottom: 24px;
+}
+
+.email {
+  box-sizing: border-box;
+  max-width: 395;
+  background: #fefefe;
+  border: 0.854167px solid #ffe550;
+  border-radius: 30px;
+}
+
+.subscribe-bttn {
+  margin-left: 33px;
+  background: #bbf330;
+  border-radius: 30px;
 }
