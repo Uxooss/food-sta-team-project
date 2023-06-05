@@ -1,3 +1,7 @@
+:root {
+  --header-btn-color: #BBF330;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: #f5f5f5;
@@ -67,5 +71,52 @@ p {
   margin-bottom: 40px;
 }
 
-.hero-button {
+.hero-button {}
+
+/** Header CSS Serhii */
+.header {
+
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {}
+
+.navigation {
+
+  
+}
+
+.navigation-list {
+  display: inline-flex;
+  gap: 28px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  padding-left: 400px;
+  
+}
+
+.list {}
+
+.navigation-item {
+ margin-right: 28px; 
+}
+
+.navigation-link span {
+  color: #BBF330;
+  text-decoration-line: underline;
+}
+
+.link {}
+
+.header-btn {
+justify-content: space-between;
+text-align: right;
+background: var(--header-btn-color);
+gap: 16px;
+border-radius: 30px;
 }
