@@ -35,3 +35,139 @@ p {
   padding: 0;
   margin: 0;
 }
+<<<<<<< Updated upstream
+=======
+
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/*! ==== Only Global Above ==== */
+
+/* hero styles */
+.hero {
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-wrap {
+  max-width: 511px;
+}
+
+.hero-title {
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  margin-bottom: 40px;
+}
+
+.hero-button {
+}
+/**---------------- CUSTOMERS -------------------**/
+.customers-container {
+  width: 1280px;
+ }
+
+.customers-ttl {
+left: 16px;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+}
+
+.customers-sbttl {
+margin-top: 20px;
+left:16px;
+font-weight: 400px;
+line-height: 19px;
+}
+
+.customers-list {
+  display: inline-flex;
+  gap: 139px;
+  margin-top:32px;
+}
+
+.customers-list-item {
+  border: 1px solid var(--color-text-2);
+  border-radius: 0px 30px 30px 30px;
+}
+
+.item-text {
+  width: 473px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  left:30px;
+  padding: 58px 14px 44px 14px;
+}
+
+.custom-person {
+  display: inline-flex;
+  border-right: 1px solid var(--color-dark-green);
+  padding-left: 14px;
+}
+
+.custom-name {
+width: 80px;
+left: 0px;
+top: -2.35px;
+font-weight: 500;
+font-size: 14px;
+line-height: 21%;
+}
+
+.custom-text {
+width: 72px;
+left: 0px;
+top: 20.65px;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+
+
+/**---------------- SUBSCRIBE -------------------**/
+
+.subscribe {
+  margin-bottom: 64px;
+}
+
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.words-wrap {
+  max-width: 532px;
+}
+.subscribe-head {
+  margin-bottom: 20px;
+}
+.subscribe-par {
+  margin-bottom: 24px;
+}
+
+.email {
+  box-sizing: border-box;
+  max-width: 395;
+  background: var(--color-white);
+  border: 0.854167px solid var(--color-yellow-main);
+  border-radius: 30px;
+}
+
+.subscribe-btn {
+  margin-left: 33px;
+  background: var(--color-button-green);
+  border-radius: 30px;
+}
+>>>>>>> Stashed changes
