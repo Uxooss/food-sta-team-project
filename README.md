@@ -10,13 +10,13 @@ live-page:  https://uxooss.github.io/food-sta-team-project/
 Serhii_(https://github.com/nhnserg) - Serhii Maksymenko 
 
 * _Hero_ = 
-Mariia Mozhara_(https://github.com/MariiaMozhara) - Mariia Mozhara
+To be reassigned
 
 * _Offerings_ = 
 Atom1c69_(https://github.com/Atom1c69) - Ruslan
 
 * _Favorites_ = 
-Yuliia Shatkovska_(https://github.com/YuliiaShatkovska) - Yuliia Shatkovska
+OlegKovrigaDev_(https://github.com/OlegKovrigaDev) - Oleg Kovriga
 
 * _Customers_ = 
 lilithcrumb_(https://github.com/lilithcrumb) - Liliia Kondrat
