@@ -150,7 +150,7 @@ p {
       border-radius: 50%;
       padding: 23px;
       &:hover {
-        border-color: #bbf330;
+        border-color: var(--color-button-green);
       }
     }
   }
