@@ -51,7 +51,9 @@
             </li>
           </ul>
         </nav>
-        <button class="header-btn" type="button">Order now</button>
+        <button class="button header-btn" data-first-modal-open type="button">
+          Order now
+        </button>
       </div>
     </header>
     <main>
@@ -66,7 +68,13 @@
               enjoy a hassle-free and delicious meal from the comfort of your
               own home.
             </p>
-            <button class="hero-button" type="button">Order Now</button>
+            <button
+              class="button hero-button"
+              data-first-modal-open
+              type="button"
+            >
+              Order Now
+            </button>
           </div>
           <img
             src="./images/hero-pic.png"
@@ -104,7 +112,9 @@
               </p>
             </li>
           </ul>
-          <button type="button" class="offering-btn">Order Now</button>
+          <button type="button" class="offering-btn" data-first-modal-open>
+            Order Now
+          </button>
         </div>
       </section>
 
@@ -196,5 +206,74 @@
     </main>
     <!--todo ======== Footer === Marichka -->
     <footer></footer>
+
+    <!--! ========== MODAL ================= -->
+    <div class="backdrop is-hidden" data-first-modal>
+      <div class="modal first-modal">
+        <button class="modal-close-btn" type="button" data-first-modal-close>
+          <svg class="modal-close-icon" width="11" height="11">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form" autocomplete="on">
+          <div class="input-wrap">
+            <div class="input-field-box">
+              <label for="user-name" class="modal-input-label">Name</label
+              ><input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="user-name"
+                placeholder="Your name"
+                minlength="3"
+                maxlength="25"
+                required
+              />
+            </div>
+
+            <div class="input-field-box">
+              <label for="user-tel" class="modal-input-label"
+                >Phone number</label
+              ><input
+                type="tel"
+                class="modal-input"
+                name="user-tel"
+                id="user-tel"
+                placeholder="+38(0_ _) _ _ _   _ _   _ _"
+                required
+              />
+            </div>
+
+            <div class="input-field-box">
+              <label for="user-email" class="modal-input-label">E-mail</label
+              ><input
+                type="email"
+                class="modal-input"
+                name="user-email"
+                id="user-email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <button class="button modal-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="backdrop is-hidden" data-second-modal>
+      <div class="modal second-modal">
+        <button class="button" type="button" data-second-modal-close>X</button>
+      </div>
+    </div>
+
+    <div class="backdrop is-hidden" data-third-modal>
+      <div class="modal third-modal">
+        <button class="button" type="button" data-third-modal-close>X</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
