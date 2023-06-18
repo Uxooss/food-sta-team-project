@@ -106,6 +106,9 @@ p {
 
 .hero-title {
   margin-bottom: 28px;
+  max-width: 502px;
+  font-size: 48px;
+  line-height: 1.2;
 }
 
 .hero-text {
@@ -113,6 +116,61 @@ p {
 }
 
 .hero-button {
+  border: none;
+  min-width: 98px;
+  padding: 6px 18px;
+  background-color: var(--color-button-green);
+  transition: background-color 300ms linear;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #ffe450;
+}
+
+.hero-slider {
+  margin-left: 129px;
+}
+
+.hero-img-wrap {
+  max-width: 580px;
+  height: 580px;
+  position: relative;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+  transition: border-color 300ms linear;
+}
+
+.hero-img-wrap:hover,
+.hero-img-wrap:focus {
+  border-color: var(--color-button-green);
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  width: 48px;
+  height: 40px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
 }
 
 /**---------------- SUBSCRIBE -------------------**/
