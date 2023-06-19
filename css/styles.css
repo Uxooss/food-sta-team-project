@@ -70,13 +70,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
   color: var(--color-black);
   cursor: pointer;
+  border: none;
   border-radius: 30px;
   outline: transparent;
 }
