@@ -13,6 +13,20 @@
       rel="stylesheet"
     />
 
+    <!-- * ========= slider ======== -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
     <!-- * ========= modern-normalize ======== -->
     <link
       rel="stylesheet"
@@ -21,6 +35,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Food Sta</title>
@@ -57,7 +72,7 @@
       </div>
     </header>
     <main>
-      <!--todo ======== Hero =====  Mariya (quit - to be reassigned) -->
+      <!--todo ======== Hero =====  Yuliia -->
       <section class="hero">
         <div class="container hero-container">
           <div class="text-wrap">
@@ -68,6 +83,7 @@
               enjoy a hassle-free and delicious meal from the comfort of your
               own home.
             </p>
+
             <button
               class="button hero-button"
               data-first-modal-open
@@ -76,12 +92,35 @@
               Order Now
             </button>
           </div>
-          <img
-            src="./images/hero-pic.png"
-            alt="some food"
-            width="528"
-            height="528"
-          />
+
+          <div class="hero-slider">
+            <div class="fade hero-img-wrap">
+              <div class="hero-img">
+                <img
+                  src="./images/hero-pic.png"
+                  alt="dishes"
+                  width="528"
+                  height="528"
+                />
+              </div>
+              <div class="hero-img">
+                <img
+                  src="./images/hero-pic-salat.png"
+                  alt="salad"
+                  width="528"
+                  height="528"
+                />
+              </div>
+              <div class="hero-img">
+                <img
+                  src="./images/hero-pic-dish.png"
+                  alt="plate with dish"
+                  width="528"
+                  height="528"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -275,5 +314,21 @@
     </div>
 
     <script src="./js/modal.js"></script>
+
+    <!-- * ========= slider ======== -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./js/slider.js"></script>
   </body>
 </html>
