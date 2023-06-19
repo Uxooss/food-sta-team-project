@@ -9,8 +9,7 @@ live-page:  https://uxooss.github.io/food-sta-team-project/
 * _Header_ =
 Serhii_(https://github.com/nhnserg) - Serhii Maksymenko 
 
-* _Hero_ = 
-To be reassigned
+* _Hero_ = Yuliia Shatkovska_(https://github.com/YuliiaShatkovska) - Yuliia Shatkovska
 
 * _Offerings_ = 
 Atom1c69_(https://github.com/Atom1c69) - Ruslan
